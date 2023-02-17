@@ -1,0 +1,46 @@
+{
+  "physicalTable" : {
+    "name" : "duo_users",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "enrolled",
+      "dataType" : "BOOLEAN",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "device_platform",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "device_last_seen",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "last_login",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "username",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "status",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "total_device_entries",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "physicalTable" : {
+    "name" : "all_employees",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "staff_pay_type",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "banner_id",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "campus_email",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "username",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "chosen_first_name",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "chosen_last_name",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "current_hire_date",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "deceased_flag",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "emeriti_flag",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "employment_status",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "last_work_date",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "staff_dept",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "staff_rank",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "staff_type",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "staff_subtype",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "staff_title",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "activity_date",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "workday_id",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    },
+    "joins" : [ {
+      "rightTable" : "physicalTable:IAM Semantic Database.IAM.all_terminated_employees",
+      "useJoinExpression" : true,
+      "joinType" : "LEFT_OUTER",
+      "cardinality" : "ONE_TO_ONE"
+    } ]
+  }
+}

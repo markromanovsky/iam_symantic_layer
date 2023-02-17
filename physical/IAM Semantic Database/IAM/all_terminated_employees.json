@@ -1,0 +1,36 @@
+{
+  "physicalTable" : {
+    "name" : "all_terminated_employees",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "employee_id",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "work_email",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "termination_date",
+      "dataType" : "DATE",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "employee_type",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "username",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

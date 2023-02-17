@@ -1,0 +1,56 @@
+{
+  "physicalTable" : {
+    "name" : "curr_all_staff",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "idautoPersonPrimaryAffiliation",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "displayName",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "employeeNumber",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "username",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "idautoPersonHireDate",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "pwdLastSet",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "idautoStatus",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "idautoPersonClaimFlag",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    }, {
+      "name" : "idautoPersonStatusOverride",
+      "dataType" : "VARCHAR",
+      "length" : 4096,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}
